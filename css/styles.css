@@ -35,12 +35,14 @@
     margin-top:3rem;
  
 }
-.navbar-home .nav>li>a:focus, .navbar-custom .nav>li>a:focus, 
-.navbar-home .nav>li>a:hover, .navbar-custom .nav>li>a:hover 
-{
+
+.navbar-home .nav>li>a:hover, .navbar-custom .nav>li>a:hover {
     border:solid #D14233 2px;
     color: #D14233;
-
+}
+.navbar-home .nav>li>a:focus, .navbar-custom .nav>li>a:focus{
+    border:solid #D14233 2px;
+    color: #D14233;
 }
 .bg-image{
     height:620px;
